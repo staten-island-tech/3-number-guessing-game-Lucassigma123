@@ -1,7 +1,10 @@
-# for i in range ((10),0,-1):
-#      print (i)
-#      while i==0:
-#          break
+# import random
+# randomint=random.randint(1,10)
+# print(randomint)
 
-for i in range (input("WHAT IS YOUR FAVORITE COLOR???????????????")):
-    
+import random
+integer= random.randint(1,10)
+input("guess the number")
+print(integer)
+
+
