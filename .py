@@ -4,9 +4,12 @@
 
 import random
 integer= random.randint(1,10)
-input("guess the number")
-while integer==input:
-    print("correct")
-else:print("incorrect")
-print(integer)
+while True:
+    guess= int(input("guess the number 1-10"))
+    if guess== integer:
+        print("correct")
+        print(integer)
+        break
+    else:print("incorrect")
+
 
