@@ -11,14 +11,19 @@
 #         print(integer)
 #         break
 #     else:print("incorrect")
-
-x=0
+import random
+history=[]
+x=random.randint(1,25)
 while True:
-    y= int(input("guess number"))
+    y= int(input("guess number 1-25 "))
+    history.append(y) #append adds up 
     if y ==x:
          print ("you guess correctly")
+         print(history,"history")
          break
-    if x>y:
-         print ("less than correct guess")
-         if y>x:
-              print ("greater than correct guess")
+    if y < x:
+         print ("less than correct guess")   
+    if y > x: 
+        print ("greater than correct guess")
+    if y<x or y>x:
+         print(history)
