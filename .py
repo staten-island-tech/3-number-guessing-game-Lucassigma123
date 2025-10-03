@@ -13,7 +13,7 @@
 #     else:print("incorrect")
 import random
 history=[]
-x=random.randint(1,25)
+x=random.randint(1,25) #random number 
 while True:
     y= int(input("guess number 1-25 "))
     history.append(y) #append adds up 
